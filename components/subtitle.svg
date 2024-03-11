@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .subtitle {
+            display:flex;
+            gap:10px;
+
+            justify-content:center;
+        }
+
+        .subtitle div {
+            background-color: purple;
+            color: white;
+
+            padding: 2px 10px;
+
+            border-radius: 16px;
+        }
+
+        .subtitle p {
+            margin: 0px;
+        }
+    </style>
+
+    <!-- html 'foreignobject': text and image -->
+    <foreignObject width="100%" height="100%">
+        <div class="subtitle" xmlns="http://www.w3.org/1999/xhtml">
+            <div>
+                🎮 Game Developer
+            </div>
+            <div>
+                ⚙ Backend Developer
+            </div>
+            <div>
+                👨‍🎓 Teacher
+            </div>
+        </div>
+    </foreignObject>
+</svg>
