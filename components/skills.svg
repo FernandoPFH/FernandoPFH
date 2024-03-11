@@ -72,11 +72,7 @@
             70%, 100% {
                 bottom: 40px;
             }
-
-            .grid-container:nth-child(n) .grid-level {
-                animation-delay: calc(var(--index))
-            }
-        
+        }
     </style>
 
     <!-- html 'foreignobject': text and image -->

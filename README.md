@@ -4,60 +4,29 @@
 
 <img src="components/subtitle.svg" width="100%" height="26"/>
 
-<br />
-
-***
-
-<br />
-
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/dheereshagrwal/colored-icons@1.7.5/src/app/ci.min.css"
-/>
-
-<div style="display:flex;height:fit-content;width:100%;">
-    <div style="height:100%;padding:0px 10px 0px 0px;width:70%">
-        <h2 style="margin:0px;margin-bottom:10px;border:0px">
-            About me
-        </h2>
-        <ul style="height:100%;display:flex;flex-direction:column;justify-content: space-around;gap: 30px;font-size:15px">
-        <li>
-            💼 <strong>Backend Developer</strong> & <strong>Infrastructure Manager</strong> at <a href="https://www.rizaasset.com/">Riza Asset Management</a>
-        </li>
-        <li>
-            📈 Gave weekly <strong>workshops about Unity</strong> and created a <strong>VR, AR and MR academic team</strong> (<a href="https://github.com/MetaversoMaua">Metaverso Mauá</a>)
-        </li>
-        <li>
-            ❤️ I love using <strong>Unity Engine</strong>, and building fun <strong>games, experiences and demonstrations</strong>
-        </li>
-        <li>
-            💬 <strong>Ask me</strong> about anything <a href="https://github.com/FernandoPFH/FernandoPFH/issues/">here</a>
-        </li>
-        </ul>
-    </div>
-    <div style="display: inline-flex;flex-direction:column;height: 260px;padding: 0px 0px 10px 0px">
-        <img style="width: 100%;" src="https://avatars.githubusercontent.com/u/51247535?v=4">
-        <div style="display:flex;justify-content:space-around;width:100%;margin:5px;">
-            <a title="LinkedIn" href="https://www.linkedin.com/in/fernando-padilha-farah/"><i class="ci ci-linkedin ci-2x"></i></a>
-            <a title="YouTube" href="https://www.youtube.com/@farahcode"><i class="ci ci-youtube ci-2x"></i></a>
-            <a title="Email" href="mailto: fernandofarah1@hotmail.com"><i class="ci ci-gmail ci-2x"></i></a>
-        </div>
-    </div>
-</div>
+<a title="Email" href="mailto: fernandofarah1@hotmail.com"><img align="right" height="25" src="components/icon_gmail.svg"/></a> <a title="YouTube" href="https://www.youtube.com/@farahcode"><img align="right" height="25" src="components/icon_youtube.svg"/></a> <a title="LinkedIn" href="https://www.linkedin.com/in/fernando-padilha-farah/"><img align="right" height="25" src="components/icon_linkedin.svg"/></a> 
 
 <br />
 
 ***
 
+<img align='right' src='https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif'>
+
+### About Me
+
+- 💼 **Backend Developer** & **Infrastructure Manager** at [Riza Asset Management](https://www.rizaasset.com/)
+- 📈 Gave weekly **workshops about Unity** and created a **VR, AR and MR academic team** ([Metaverso Mauá](https://github.com/MetaversoMaua))
+- ❤️ I love using **Unity Engine**, and building fun **games, experiences and demonstrations**
+- 🏅 **Am a** [Unity Certified Professional: Programmer](https://www.credly.com/badges/d256d7ed-7070-4b45-ae42-0164f74f392a/public_url)
+- 💬 **Ask me** about anything [here](https://github.com/FernandoPFH/FernandoPFH/issues/)
+
 <br />
 
-<h2 style="margin:0px;margin-bottom: 5px;border:0px;">
-    Skills
-</h2
+***
+
+### Skills
 
 <img src="components/skills.svg" width="100%" height="110"/>
-
-<br />
 
 ***
 
