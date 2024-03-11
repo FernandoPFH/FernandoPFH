@@ -150,6 +150,8 @@
     </strong>
 </div>
 
+<img style="width:100%;" align="center" src="components/title.svg" alt="Anurag's github stats" />
+
 <br />
 
 <div class="subtitle">
