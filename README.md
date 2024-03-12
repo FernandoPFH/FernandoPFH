@@ -18,8 +18,6 @@
 - 🏅 **Am a** [Unity Certified Professional: Programmer](https://www.credly.com/badges/d256d7ed-7070-4b45-ae42-0164f74f392a/public_url)
 - 💬 **Ask me** about anything [here](https://github.com/FernandoPFH/FernandoPFH/issues/)
 
-<br />
-
 ***
 
 ### Skills
