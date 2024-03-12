@@ -4,11 +4,9 @@
 
 <a title="Email" href="mailto: fernandofarah1@hotmail.com"><img align="right" height="25" src="components/icon_gmail.svg"/></a> <a title="YouTube" href="https://www.youtube.com/@farahcode"><img align="right" height="25" src="components/icon_youtube.svg"/></a> <a title="LinkedIn" href="https://www.linkedin.com/in/fernando-padilha-farah/"><img align="right" height="25" src="components/icon_linkedin.svg"/></a> 
 
-<br />
-
 ***
 
-<img align='right' src='https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif'>
+<img align='right' src='https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif' height="195px">
 
 ### About Me
 
