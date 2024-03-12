@@ -24,7 +24,7 @@
 
 ### Skills
 
-<picture><img src="components/skills.svg" width="100%" height="110"/></picture>
+<picture><img src="components/skills.svg" width="100%"/></picture>
 
 ***
 
