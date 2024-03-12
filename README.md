@@ -1,8 +1,6 @@
-<img src="components/title.svg" width="100%" height="97"/>
+<picture><img src="components/title.svg" width="100%" height="97"/></picture>
 
-<br />
-
-<img src="components/subtitle.svg" width="100%" height="26"/>
+<picture><img src="components/subtitle.svg" width="100%" height="26"/></picture>
 
 <a title="Email" href="mailto: fernandofarah1@hotmail.com"><img align="right" height="25" src="components/icon_gmail.svg"/></a> <a title="YouTube" href="https://www.youtube.com/@farahcode"><img align="right" height="25" src="components/icon_youtube.svg"/></a> <a title="LinkedIn" href="https://www.linkedin.com/in/fernando-padilha-farah/"><img align="right" height="25" src="components/icon_linkedin.svg"/></a> 
 
@@ -26,205 +24,32 @@
 
 ### Skills
 
-<img src="components/skills.svg" width="100%" height="110"/>
+<picture><img src="components/skills.svg" width="100%" height="110"/></picture>
 
 ***
 
-<br />
+### Repositories
 
-<h2 style="margin:0px;margin-bottom: 5px;border:0px;">
-    Repositories
-</h2>
+#### Games
 
-<h3 style="margin:0px;margin-bottom: 5px;border:0px;">
-    Games
-</h3>
+<a title="MemoryPuzzle - Unity" href="https://github.com/FernandoPFH/MemoryPuzzle-Game-Unity"><img width="270" height="185" align="center" src="components/repositories/games/memory_puzzle.svg"/></a>
+<a title="Dodger - Unity" href="https://github.com/FernandoPFH/Dodger-Game-Unity"><img width="270" height="185" align="center" src="components/repositories/games/dodger.svg"/></a>
+<a title="FarahZero - Unity" href="https://github.com/FernandoPFH/FarahZero-Game-Unity"><img width="270" height="185" align="center" src="components/repositories/games/farah_zero.svg"/></a>
 
-<style>
-    :root {
-        --games_repositories: 3;
-        --demos_repositories: 4;
-        --mics_repositories: 2;
+#### Demos
 
-        --repository_width: 250px;
-        --repository_gap: 10px;
-    }
+<a title="BezierCurves - P5.js" href="https://github.com/FernandoPFH/BezierCurves-OnlineDemo-P5js"><img width="270" height="185" align="center" src="components/repositories/demos/bezier_curves.svg"/></a>
+<a title="Graphs - P5.js" href="https://github.com/FernandoPFH/Graph-OnlineDemo-P5js"><img width="270" height="185" align="center" src="components/repositories/demos/graphs.svg"/></a>
+<a title="Metaballs - P5.js" href="https://github.com/FernandoPFH/Metaballs-OnlineDemo-P5js"><img width="270" height="185" align="center" src="components/repositories/demos/metaballs.svg"/></a>
+<a title="Sorting Algorithms - P5.js" href="https://github.com/FernandoPFH/SortingAlgorithms-OnlineComparator-P5js"><img width="270" height="185" align="center" src="components/repositories/demos/sorting_algorithms.svg"/></a>
 
-    .repositories_list {
-        display: flex;
-        white-space: nowrap;
-        overflow: hidden;
-        gap: var(--repository_gap);
-    }
+#### Mics
 
-    .repositories_list:hover > .repository {
-        animation-play-state: paused;
-    }
-
-    #games_repositories_list > * {
-        animation-name: games_repositories_move;
-        animation-delay: 0.5s;
-    }
-
-    #demos_repositories_list > * {
-        animation-name: demos_repositories_move;
-        animation-delay: 1s;
-    }
-
-    #mics_repositories_list > * {
-        animation-name: mics_repositories_move;
-        animation-delay: 1.5s;
-    }
-
-    .repository {
-        position: relative;
-        display: inline-flex;
-        flex-direction: column;
-        padding:10px;
-        background-color:#3ec156;
-        width: var(--repository_width);
-        min-width: var(--repository_width);
-        border-radius: 10px;
-        color:black;
-
-        animation-duration: 3s;
-        animation-direction: alternate;
-        animation-iteration-count: infinite;
-        
-        transition: background-color 0.2s ease-in-out;
-        transition: color 0.2s ease-in-out;
-    }
-
-    .repository:hover {
-        text-decoration: none;
-        color: white;
-        background-color:purple;
-    }
-
-    .repository img {
-        height:100%;
-    }
-
-    .repository p {
-        width:100%;
-        text-align:center;
-        margin:0px;
-    }
-
-    @keyframes games_repositories_move {
-        0%, 10% {
-            left: 0px;
-        }
-
-        90%, 100% {
-            left: clamp(calc(infinity * -1px), calc((100vw - (var(--repository_width) * var(--games_repositories) + var(--repository_gap) * (var(--games_repositories) - 1)))*var(--games_repositories)), 0px);
-        }
-    }
-
-    @keyframes demos_repositories_move {
-        0%, 10% {
-            left: 0px;
-        }
-
-        90%, 100% {
-            left: clamp(calc(infinity * -1px), calc((100vw - (var(--repository_width) * var(--demos_repositories) + var(--repository_gap) * (var(--demos_repositories) - 1)))*var(--demos_repositories)), 0px);
-        }
-    }
-
-    @keyframes mics_repositories_move {
-        0%, 10% {
-            left: 0px;
-        }
-
-        90%, 100% {
-            left: clamp(calc(infinity * -1px), calc((100vw - (var(--repository_width) * var(--mics_repositories) + var(--repository_gap) * (var(--mics_repositories) - 1)))*var(--mics_repositories)), 0px);
-        }
-    }
-</style>
-
-<div class="repositories_list" id="games_repositories_list">
-    <a class="repository" href="https://github.com/FernandoPFH/MemoryPuzzle-Game-Unity">
-        <img src="https://raw.githubusercontent.com/FernandoPFH/MemoryPuzzle-Game-Unity/ca1d03ce09da7405d86eb04967a5d641ed972bd7/Imagens/MenuInicial.PNG">
-        <p>
-            <strong>MemoryPuzzle - Unity</strong>
-        </p>
-    </a>
-    <a class="repository" href="https://github.com/FernandoPFH/Dodger-Game-Unity">
-        <img src="https://raw.githubusercontent.com/FernandoPFH/Dodger-Game-Unity/main/Imagens/MenuInicial.PNG">
-        <p>
-            <strong>Dodger - Unity</strong>
-        </p>
-    </a>
-    <a class="repository" href="https://github.com/FernandoPFH/FarahZero-Game-Unity">
-        <img src="https://raw.githubusercontent.com/FernandoPFH/FarahZero-Game-Unity/main/Imagens/MenuInicial.PNG">
-        <p>
-            <strong>FarahZero - Unity</strong>
-        </p>
-    </a>
-</div>
-
-</br>
-
-<h3 style="margin:0px;margin-bottom: 5px;border:0px;">
-    Demos
-</h3>
-
-<div class="repositories_list" id="demos_repositories_list">
-    <a class="repository" href="https://github.com/FernandoPFH/BezierCurves-OnlineDemo-P5js">
-        <img src="https://raw.githubusercontent.com/FernandoPFH/BezierCurves-OnlineDemo-P5js/main/Imagems/Captura_CurvaBezier.PNG">
-        <p>
-            <strong>BezierCurves - P5.js</strong>
-        </p>
-    </a>
-    <a class="repository" href="https://github.com/FernandoPFH/Graph-OnlineDemo-P5js">
-        <img src="https://raw.githubusercontent.com/FernandoPFH/Graph-OnlineDemo-P5js/master/Imagens/Grafo_Capturar.PNG">
-        <p>
-            <strong>Graphs - P5.js</strong>
-        </p>
-    </a>
-    <a class="repository" href="https://github.com/FernandoPFH/Metaballs-OnlineDemo-P5js">
-        <img src="https://raw.githubusercontent.com/FernandoPFH/Metaballs-OnlineDemo-P5js/master/Imagens/Metaballs_Capturar.PNG">
-        <p>
-            <strong>Metaballs - P5.js</strong>
-        </p>
-    </a>
-    <a class="repository" href="https://github.com/FernandoPFH/SortingAlgorithms-OnlineComparator-P5js">
-        <img src="https://raw.githubusercontent.com/FernandoPFH/SortingAlgorithms-OnlineComparator-P5js/master/Imagens/Captura_AlgoritmosDeCompara%C3%A7%C3%A3o.PNG">
-        <p>
-            <strong>Sorting Algorithms - P5.js</strong>
-        </p>
-    </a>
-</div>
-
-</br>
-
-<h3 style="margin:0px;margin-bottom: 5px;border:0px;">
-    Mics
-</h3>
-
-<div class="repositories_list" id="mics_repositories_list">
-    <a class="repository" href="https://github.com/FernandoPFH/dotfiles">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernandopfh&layout=compact&theme=buefy&hide_border=true">
-        <p>
-            <strong>Dotfiles</strong>
-        </p>
-    </a>
-    <a class="repository" href="https://github.com/FernandoPFH/Portfolio-Online-Unity">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernandopfh&layout=compact&theme=buefy&hide_border=true">
-        <p>
-            <strong>Portfolio - Unity</strong>
-        </p>
-    </a>
-</div>
-
-<br />
+<a title="Dotfiles" href="https://github.com/FernandoPFH/dotfiles"><img width="270" height="185" align="center" src="components/repositories/mics/dotfiles.svg"/></a>
+<a title="Portfolio - Unity" href="https://github.com/FernandoPFH/Portfolio-Online-Unity"><img width="270" height="185" align="center" src="components/repositories/mics/portfolio.svg"/></a>
 
 ***
 
-<br />
-
-<h2 style="margin:0px;margin-bottom: 5px;border:0px;">
-    Metrics
-</h2>
+### Metrics
 
 <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=fernandopfh&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Anurag's github stats" /></a>  <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernandopfh&layout=compact&theme=buefy&hide_border=true" /></a>

@@ -10,10 +10,10 @@
         .grid-item {
             position: relative;
             display: inline-flex;
-            height: 110px;
-            max-height: 110px;
-            width: 66px;
-            max-width: 66px;
+            height: 100px;
+            max-height: 100px;
+            width: 60px;
+            max-width: 60px;
             transition: transform 0.3s ease-in-out;
         }
 
@@ -27,8 +27,8 @@
         }
 
         .grid-item svg {
-            height: 100px;
-            max-height: 100px;
+            height: 90px;
+            max-height: 90px;
             z-index: 0;
         }
 

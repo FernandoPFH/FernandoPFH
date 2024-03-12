@@ -1,0 +1,36 @@
+<svg width="270" height="185" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .repository {
+            position: relative;
+            display: inline-flex;
+            flex-direction: column;
+            padding:10px;
+            background-color:#3ec156;
+            width: 250px;
+            min-width: 250px;
+            height: 165px;
+            border-radius: 10px;
+            color:black;
+        }
+
+        .repository img {
+            height:142px;
+        }
+
+        .repository p {
+            width:100%;
+            text-align:center;
+            margin:5px 0px 0px 0px;
+        }
+    </style>
+
+    <!-- html 'foreignobject': text and image -->
+    <foreignObject width="100%" height="100%">
+        <div class="repository" xmlns="http://www.w3.org/1999/xhtml">
+            <img src=""/>
+            <p>
+                <strong>Dotfiles</strong>
+            </p>
+        </div>
+    </foreignObject>
+</svg>
