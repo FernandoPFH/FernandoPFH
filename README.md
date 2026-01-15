@@ -10,7 +10,7 @@
 
 ### About Me
 
-- 💼 **Backend Developer** & **Infrastructure Manager** at [Riza Asset Management](https://www.rizaasset.com/)
+- 💼 **Game Developer** at [Mega Cat Studios](https://megacatstudios.com/)
 - 📈 Gave weekly **workshops about Unity** and created a **VR, AR and MR academic team** ([Metaverso Mauá](https://github.com/MetaversoMaua))
 - ❤️ I love using **Unity Engine**, and building fun **games, experiences and demonstrations**
 - 🏅 **Am a** [Unity Certified Professional: Programmer](https://www.credly.com/badges/d256d7ed-7070-4b45-ae42-0164f74f392a/public_url)
